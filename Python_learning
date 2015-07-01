@@ -1,3 +1,10 @@
 ## In Python, if one wants to switch directory, one needs:
 path=/where/you/want
 os.chdir(path)
+
+## Combine two arrays to a matrix:
+c=np.vstack((a, b))
+c=np.transpose(c) ## To transform it into common style in numpy.
+
+## Save a matrix:
+np.savetxt(filename,matrix,'%1.4e') ## The last part is format.
