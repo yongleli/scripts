@@ -1,0 +1,3 @@
+## In Python, if one wants to switch directory, one needs:
+path=/where/you/want
+os.chdir(path)
